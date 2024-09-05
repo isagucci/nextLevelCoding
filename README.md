@@ -1,3 +1,3 @@
 # nextLevelCoding
-## Welcome to Isa's Next Level Codinng page!
-### The links to our projects will be down below!
+## Welcome to Isa's Next Level Coding page!
+### The links to my projects will be down below!
