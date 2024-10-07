@@ -1,0 +1,109 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+header nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+
+.logo {
+  width: 200px; 
+  height: auto;
+  padding-right: 100px;
+  position: absolute;
+  justify-content: space-around;
+  display: flex;
+}
+
+canvas {
+  display: block;
+  position:absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.info{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  left: 100px;
+  top: 30%;
+  padding: 0;
+  position: absolute;
+}
+
+.title{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  left: 100px;
+  top: 35%;
+  padding: 0;
+  position: absolute;
+}
+
+.info2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 2em;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  left: 100px;
+  top: 60%;
+  padding: 0;
+  position: absolute;
+}
+.ball {
+  border-radius: 50%; 
+  padding: 0;
+  margin: 0;
+  position: fixed; 
+  animation: fall 3s ease-in-out infinite; 
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+
+@keyframes fall {
+  0% {
+      transform: translateY(-100vh);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  width: 1200px;
+  margin: auto;
+  left: 100px;
+  top: 80%;
+  padding: 0;
+  position: absolute;
+}
