@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3d2d4;
+    cursor: pointer;
+}
+
+header nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    color: #1483c4;
+    font-family: "trade-gothic-next", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #1483c4;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(200px, 1fr)); 
+    grid-gap: 10px;
+    margin: 50px;
+}
+
+.image-container {
+    
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: scale 0.3s ease; 
+}
+
+ img {
+    max-width: 100%;
+   object-fit: cover;
+   max-height: fit-content;
+}
+
+.image-text {
+    display: none; 
+    margin-top: 15px; 
+    font-size: 10px;
+    
+    font-family: "trade-gothic-next", sans-serif; 
+}
+
+.image-container:hover {
+    scale: (1.5);
+}
+
+.image-container:hover .image-text {
+    display: block; 
+}
+
+.text-color-1 {
+    color: #1483c4; 
+}
+
+.text-color-2 {
+    color: #e74c3c; 
+}
+
+.text-color-3 {
+    color: #2ecc71; 
+}
+
