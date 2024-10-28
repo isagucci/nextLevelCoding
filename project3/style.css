@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    margin: 0;
+    background-color: rgb(1, 6, 15);
+}
+
+.circle {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 100px;
+    display: flex;
+}
+
+h1 span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform-origin: bottom;
+}
+
+
+  
