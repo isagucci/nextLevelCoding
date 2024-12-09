@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kindness Tracker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+</head>
+<body>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h2>Submit an Act of Kindness</h2>
+        <p>We are attempting to create an archive of all the different acts of kindness that we witness, are in the receiving end of or do in order to remind ourselves of the impact that we have on the world around us.<br> <br>Select a category and write a brief description of what you did.</p>
+        <form id="kindnessForm">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="helping">Helping</option>
+                <option value="sharing">Sharing</option>
+                <option value="teaching">Teaching</option>
+            </select>
+            <label for="description">Description:</label>
+            <textarea id="description" required placeholder="Describe your act of kindness..."></textarea>
+            <button type="submit">Submit</button>
+            <button class="close" id="closeModalButton">Close</button>
+        </form>
+    </div>
+    <script src="script.js" async defer></script>
+</body>
+</html>

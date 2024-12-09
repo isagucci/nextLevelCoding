@@ -77,6 +77,7 @@ function displayData(data) {
       <p>Hair Type: ${item.hair}</p>
       <p>Function: ${item.function}</p>
       <p>Fragrance: ${item.fragrance}</p>
+
     `;
 
     backgroundDiv.appendChild(productDiv);
