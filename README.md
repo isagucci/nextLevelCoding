@@ -7,3 +7,4 @@
 3. [Project 3](project3/index.html)
 4. [Project 4](project4/index.html)
 5. [Project 5](project5/index.html)
+6. [Digital Forms](digitalforms/index.html)
